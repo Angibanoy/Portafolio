@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andrea Gisselle Banda Oyarzun - Portafolio</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <div id="home">
+                <div class="nombre_perfil">
+                    Andrea Banda
+                    <div class="informacion_contacto">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEbklEQVR4nO2aXahVVRDHf3Wte1MzvbcPI6nEh7Tu6aWHXiIfQiqzDyUCjV768iGKe0tfKzIT7CmIUt8Leq+8FRaEH5VZSQZmeivKTMgMwdK0Vkz8lwz7nLP3Ovvs84H4h8057Jk1s2atWbNm5hw4h7MXs4ClwDrgXWAX8BNwAjgN/A58C7wHvAws05i+wIXAQ5rc30Bo8bEx7wMrgMFeGGBKVwOHMpPaAqwB7gNuAuaI9zyt/nxgMfCsDDjpxv8KjAFD3TJiCTDpJvAF8HBJN7lEYz938iaB2+kgpgGbnMIvgUUVyr9DixLlb+jE7lzpVu1P4Cng/KqVAANyr+PStROYXZXwa4EfJHiv/LzTqCnCmc79wNx2BV4FHJDAj4FhuodhYLszpvTOmH9+JkHbgOl0H9OcMTvLnpl4sPcBM+kdhp2bbSwTQYIO3Si9R80FgOTQPOQO9zj9gzHN6ftUFxvXgF0Kh/2CAXfPmFG5GFSqEORejRC69DTCnaIdUp7XFCvEaJcffWgIbleWk4MtYno0h6dIUbsIBfIfF92SzoaYqQzWnhkJitZXnKaYrPUJhlhyekrztKSzDvdLgO1KHvz2v1VRYjckWSFxxz8SjxVydYirYbVCHqKiP/S5FRgpb8P/Y7dmZIaCMS+Ix6rROnwg4t0FQqIiuyh/1He7eeeVMGKeu7VN1miiIfeIZ3Mj4j4Rr0s0JJve/wbc0oIRNwOHNXa3qkkSDamJZ08jYtzWokovq2i6mg2xVrGmQhGWidfGvJNJSEOCIcPisYZGHU6JOKVFQ9CYjXr/T8HNOyaeWAVm9YUEQ4bcwtXhhIi5N2aOogXAUUd/JZPiDOhdpB9tUqSFBEMuEI81Lypzregqx1wVGRflbVWYc/U9iLZX3481CKGhBdc60oj4jYi1FgyxVX4J+Ffv3gSmArdKSTbtOCLaVPEGjV3rdi8kGLJAPDbnOmwW8d5EQ0bUmAs6X9mU/xpN9rCeN/TOY9ydzQm30qnh14JMHdaJuCbRkNjbskkupDwWujA8mWjIc+Ixb6jDUhE/LBDiXeVTF//bwRzJClWkKLNc0pjXLYmKNlXcrzVZvgFYlNxaxLq4GdOEhDzSx2n8yrz0JOJB1w4tUtTpp6iwsmy9Kewy/KWgW9FLQ5aIdlCXYi6ecYlcPzUfpmhONrcnUg/dgdRuRRex2rVPi9KoM1isG/cv4AZ6jxvVoLM53dbq4A1age+AS+kdRpyHvFZGwEXuktqWF7M7iBluDttbcaksZru04ZMu/6xwGbBDuq0cvqJdgVfLveJBM3/tNGrOnfZXlAadqc13uKpsVYdC8wDwtIJMdKfLq1ZiYfl1V3t8BdxVoXzr637tapRXO/1T9SK37TGdWVnyxyCLSI+5iy7IjZs10CuHRY8nXToTiysrAZ5XcXa9C9uDOryjor2oVDwWVfb8rAu4dGRq16AHVCn6fzGkPidV5S1PyZ26GfPjn2omVE/Huv24Gnh7RFurcrVhE/ocOAvwH6gmEIyjj/T3AAAAAElFTkSuQmCC">
+                       jdae@jeemail.com
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div class="informacion_contacto">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADS0lEQVR4nO2ZS0hUURjHf6ZZGJWUVqYWGbQSMlpkRYtE2oRBRAVFmGIYZLWM1tKqwih6CLWpXUXagx4LSVr0EiwhIm3Rg4qg1J5oz4lD/wuHYebOXBnvnIH5wd3M/c7c79x7vv/5vu9AlixpZR3QA4wCfcByMox84DgQibqGgVIyhOlAlxwfAVqAIuCyfrtOBjAHeCyH3wJLo+591L1GHGYa0CtHnwLzY9hs1f1PwDwcZBJwR04+AWb62Ha4vMQOyLlXQFkCW7PEBmVfj2MMybHVSdpvk70ZV4JDjMqxwgBjrmmMWWrO8FxOVQYYU6agN+M24wgdcsioUhB2aFw/jtAih84GHFekcb+BHBxgIfAX+AJMDTBuuyZi8jFn6JJTO5O0nwy8dFGGN1nrPS8J+/2yfwRMwCFylZoY55oT2M4CPsu2FgfZIOfeAQU+du2yMxmxk+QAD+TkQZ/Y+CqbJhxmCfAT+AOsimOzxyq0FuAwrVbgF8T5cldl8zDBMkx7qdsnR03JG4tCSxw6JRZOUqVS1zja4LORfpBNuyu7eywarNp9WUyL/50VL/jbcJijliTH66DUWF/vMI4yEbgtJ+/6BHad1C6iitNJioEXcvKGxCAWG63JtLkaM4uA93LyvI9K1VnL7JSrarZYm6Bx8rTPG6+xBKAzznLMlZiYpNNsvgNKXENjBfAticCutqS5J6pPVmvtU9HXRWA2IbEG+GFNJt6XqbA2zSGVxl5GEFHcmVqmSPe8jNp0NLeENZn11mTO+MSCyQCuRL114/A+JaA25RITz65DfbRQvoy3zC74qJn5YrsVNydVz/jRaMXioPpo485K66E3EySQpjWbLKVW7yyiJTmXEPIyT5rvpbj7WG91Qod9UqWU7jNeM+JNih9YYomEketQMoBuPXDUJ2seCzP0v98JMTc7Zq3tEykqvPZa+V6oNFjN8QGJwliptqR+LWmgytrBTRpyCJgS8D8qLCE5QhrJVw/gl1XXNCfZBCwGnmncLS3btGMOVu9bsdOv9my8XnO5ld70BuxJjzs5agJ6bzmixvk5HWlU6njcZM+vLbkNLYkMSp4Oh7p0ChCJc3VrYhmBCeZdwCWp24iy39aAKU2WLKSQf3jSBy3qRwNwAAAAAElFTkSuQmCC">
+                         +91562255665
+                    </div>
+                </div>
+            <div class="topdiv">
+                <a class="topmenu" href="#sobre_mi">Sobre mi</a>
+                <a class="topmenu" href="#habilidades">Habilidades</a>
+                <a class="topmenu" href="#proyectos">Proyectos</a>
+                <a class="topmenu" href="#recomendaciones">Recomendaciones</a>
+                <!-- Agrega los enlaces para Habilidades, Proyectos y Recomendaciones aquí. -->
+            </div>
+            </div>
+        </nav>
+        <!-- Sobre mi-->
+        <section id="sobre_mi" class="container">
+            <div>
+                <img src="Imagenes/mujer.jpg" class="imagen_perfil"/>
+            </div>
+
+            <div>
+                <h1>
+                    Hola, mi nombre es Andrea Banda! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+                </h1>
+                <p>
+                    Ingeniera en Informática con formación complementaria en Pedagogía en Matemáticas e Informática Educativa. Con una sólida trayectoria de 6 años en los campos de Educación e Informática. Mi experiencia más reciente se centró en mi rol como Analista QA Junior en Akzio. Actualmente estoy estudiando para mi Certificación de Desarrollador Full Stack de IBM.
+
+Mis habilidades técnicas incluyen un dominio avanzado de herramientas como Excel, así como una profunda experiencia en la Gestión de Proyectos utilizando Jira. Además, tengo una destacada capacidad para diseñar y ejecutar Planes de Prueba efectivos. Mis habilidades en bases de datos, específicamente en SQL y MySQL, han sido fundamentales en proyectos pasados, incluida la creación de scripts para consultas y migraciones de datos.
+
+Mi experiencia en Akzio también me proporcionó un sólido conocimiento de herramientas de comunicación y colaboración como Outlook y Teams, lo que facilitó la coordinación eficiente del equipo y la comunicación efectiva con los interesados.
+
+Me considero una experta en Gestión gracias a mi habilidad para automatizar procesos y encontrar soluciones innovadoras para diversos desafíos además, fui Jefa de Proyecto en mi tesis que consistió en el desarrollo de una página web de marketplace utilizando .NET MVC con Entity Framework, HTML y CSS, alojada en Azure y con integración de Azure BD para funcionalidades de login y compras. Esta destreza se ha manifestado tanto en la administración de proyectos como en la gestión de recursos, donde he demostrado una capacidad excepcional para optimizar la eficiencia y garantizar la calidad en del proyecto.
+
+Estoy comprometida a seguir desarrollando mis conocimientos y habilidades para alcanzar el más alto rendimiento laboral posible y contribuir de manera significativa al éxito de cualquier equipo o proyecto en el que participe.
+                </p>
+            </div>
+        </section>
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <div style="clear: both;"></div>
+            <div class="todas_habilidades">
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAESUlEQVR4nO2b/W9TVRjH7x+yII6E36SjrJOA2pK2rt1+MJFetoRpyNQUtm6sd0XAyG7n5jCwMTAxAdGERDS+4AYzCMwU7VQiwy3AQIVE78bKVtwLbVhpV8CvOW3a9cDe197S2/Mk3+TkPrf3Oc/nPs/puektxzFjlt1m4MVl+lfF3GyUgReXcTqLU9LxTmSlLE6JAdCxCnDGW8C8ScQHW3bKIhIrFldf1oSS/W2yiMSasQVKS/cAglUWkVixuCZrK+o8YVlEYjEAPKsAsBbg2RqApS2CTe8CZzqA3ktATzdw5hTQtCfli+CHQ5PoGgvhhi+Iv3z34R4L4dCwnItg7Vbguzbg3j0gEKBFjnV8mxIAoieM86NBPHo8ZiAQOeYaDcoEoP2rJxN/XG1fJh1A52hwzrjnRoIpBuB8G/D75gbg8wHijqQBaB4K48HEHDEDAYQnAtg/lEoA33xOB712BajfCby3C7h+lfZ9/VnSAHw/GqKu/Y8/iJahcESSn66M0yOhFAL4sZNOsqVxytfyPu0735k0AN3jdJKHvZNx3xHvJOW7OB5MIYBffqKTbNg95SPjRB85N0kAeu/SAA4klDkZJ/rIuQyAh1UAWAt42BoAxS6CP4+FIhsjIjLOukUQsyi1ANwuOuDeuikfGSf6ulwKBNBxgg7oOht9OCJynaN9l3sAxzaFAdhXD0xM0EEHB4DBW9NP6ELXjBCWAuDEvyEc80ZFxvIBEKzRpOZ5N2aDkJk7QcEK7KoGrvTOnLB3+MljnacVBECwRu/o8U+BP/qAu+NR/XktemxHBV0lnkH620IRAIR5APrVDdz2AI3vLHkNyMzfBRzbgDpHUr4FMhOAMLsYgFJWAXjqWuCVkjqc3WqXRSRWLK5xyz5Y23tkEYnFXpDg2RsimLYFdNkIQG2yn8w32X9bY67p1ZjtfflF9huaIkHSFAm3NebaEU1xrb+g2BEqKK797/liBzJBZK5kzmTukRxILkWCFMnNbO8juZKc1Sb7SS5PXynlGWzISukrJQYgj1VAZUa3wPqNb6Dxh5VxvdWqo/wfqd/E1ZWvx2XYUKGsFniBL8fB33Pish1ZR/mPryqHN7csrkItAwCqAlR6mzvPYPs79aq6tdpYPa42Vk+ueXk7phPxkXPIufO97npLudR84Zk7rZdy+g905wxUHV17M9H/xarym8O5mwe8uWX9Ayteu2PUVUgxn0pvc8v2VrqWd55awAalnVOaaXnn9QUA6OOUZBtKGlYsdJv6It/wLKcU0/LiJwsFoOXFw5wS7KWN9WYtLz5cBICHuk31hVzGJ29x+hf7tEY+q+VFE5ehPX90MXd+2kqwiB+T//hwT5up9JXNKoPtWEyrjVXt6sKa7nyzMKwxC4GCyKPp0kWuRa6pNtVcJDESY5I5pA+Awdaf7q0wmQMDkC5TZXsFPKetylEVbl+eTpE5pA0AM2Zcxtv/yj2BhVb6EI4AAAAASUVORK5CYII=">
+                    <h6>Analista QA Junior</h6>
+                    <p>1 años de Experiencia</p>
+                </div>
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB90lEQVR4nGNgGAWjYBSMgiEJxCYEZ4hNCP4oNjHkP6lY81A96fhg3Uetg3Xp1PQAWY4n2wOHwPgD9TxApuMp9MD/UQ/AwGgMHBpNQsM0CXEXWhRwF1p84Smy+E8RLrH8L9TsMSAe+EKx42G42OI/T4MrBpZck0o2ZiAEqOZ4GB71QOpoDPwXLrP9f+f1o/8gULVpEjx5aLUE/v/x+9f/b79+/NdpDR7cSShiXhnYA2++vP8vUekEFlt5didYrGHr9KGRB3ZdPw52cOO2Gf8te2L///339//tVw/BMTQkPGDSGfn/15/f/99/+/T/2L0L///9+/ffa1r20CqFphxc8R8Glp/ZPvSK0YUnNsE9sOLsDoIeEHfXwsBC04LIxgyUeMBzahY42Zx6cPn/kbvnwZ7wn5k/NDwgXGb7/8aL+2BHg9K9/YQksGcevn32X6zCcfB7oHvPArDjd1w7ChfbdOkAWKx378LB7QGzrihw6QMqNq174+Dihh1h/3///QPGVr2xg9cDPBTgUQ9MG2kxwF1k/plqHigwHwAPFJrnUcUTBeb/hKL0v4m7a75Hx6oZDmRjBmoBCQ+t/+Ri9TR7sjHDqAegYDQG0kaT0EhPQu5aH+nvATvqTXBIemilSXhofaCfB+w+qKbYp1LNA6NgFIyCUcBADQAA6UC2Ipn+q/gAAAAASUVORK5CYII=">
+                    <h6>Excel Avanzado</h6>
+                    <p>10 años de experiencia</p>
+                </div>
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEVklEQVR4nO2YW2hcRRjH/6naWi+9JZnZaLFVI1JvIBVvUBAKCl7Ql1SRilpxk/1mtzGtyc7sJucrolWxphcvUBWkLfogVvFBEasFS8GHCmpBfeiTKGjpleTMhmJ1ZeZsNptksyR5kBM4P/jImZkvc+Y/3zczZxZISEhISEhISJhDcG4RNH0BrQ5Cq01Ipy/CnKKQboNWg8jlFsCobmg6DE37oFUXejdcjjmBUVtQzNxdLWvVDK2ehlHfopB5CLHHpY2mDwA0oUgroLOP+vqenoXQ6m1o9ZJvizWGOqEz9/pnJ6KWAvXC0HbEGj/b9N6U7U6AVmnEGqO6YWhtgzT7DvnOlYgtHR0XwNC7U7YX1H3Q9CZiS3/X9dAZauDRBE1H/C4VSwytQ6HrzoY+0fa6BbHEqMeh6Q70ZVb5U7kezPNh6Cjy6cWIHTqzGib7DDS9CkM/+p2pHnnaAEOfQFM7YkYTtNoDTYf8CayJp/TM526Fode9WH7yYsSGfOdKP8MOk12P/o3XNfR3UTDqjThGI8IJcHlfjz66ESbbB0O7YdTnYJ4HFLK3w9Br0Co/ZQ6a7Bpo2gFN2emGr8yYV2K5LmQ5aAO5u9ZCbn3e+VhO3WZZbpvYbgPx8nC/uDnyEV2uboRb26HVNhi1F5s3X1ozOHUCRpW9OYdJqnPLoZWt8ZnW8R6y/NCyLIeBeKsUpDpqbZjlPaViakUYiHOW5VnLMjvaZgPRHbIIw0CMjBTl1WEg97t+SgMta8B8oU8fQx+D6bJRAWUYOglNP8OoIX/hGDf79Epl4D9V/hanI8AG4rh7cTmNuheWkFP3u3YbyH2T/pflO37QQapjnIDqmLpu8uPwW2s0syf8zEbP3VVHTl8CTaeg6S8Y0lUB7vJh6MCk7xj3KezrN8qQ5R/uxcNGyCki9GAkQLw/uU3s8oNm+VhdAdX3Za4ZE+By26jjMOpYtDh8dHKVCBWg1XM1Agaj+uz6cR0a9b2vL5JLj2crqfCbDeQBbyy/CgOx0xaWXdlQQCB2TktA5aWRAP9ML/pyIfOAF+HEuPyPbkwzEuCK5Vz7gmEWt9iBttXOwkBwtC7kZ40jIHfMToC/r9I5aPoSJvtINGDaFYVr5gImMtSfWuUFsDjUOAJy++wEROW9MOpfaPoVRp1HMXftJAFGvRBFinpnIsAOiIcrEdhfGhB3eQEsj5Z7li8cMqlWy/Jry+KXMBBH/PoZEGtHF7TbTqcnwB0khn6Hpn9gaGu1vlbApnQLDH0EQyE0nYFRpyt2fmwNyGOWxelaC1mUwkB+GhZa2spAk2Wx1QbilNsyfXsgbEVUOWR5uMw3zHdbqQ3EN5GPHJrYp1vJS8HdS+pIG3+pdj+DeN8JB5nbyly9+7Y36k8vXKvmM7x4yVl91dJRc+X6Mwic5GWLRv0sN19hWRwMA/l3yPKpWr+JfTrDrHC/GozN+php9QM0PTG7ThMSEhISEhIS8H/zH0+vv/NpkXfUAAAAAElFTkSuQmCC">
+                    <h6>MySql</h6>
+                    <p>2 años de experiencia</p>
+                </div>
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEcUlEQVR4nNWZXU8aaRTHp20EBIUFrUttEV1m8GPsl9ju1i62vtJqfU+3VHzhtYm3/Qyb9GIverm3a3aTXjbNmtoW6wu6VVtNQR2EKng255kXICkVhplxOMm5Hf6/+Z9z5jwPFKVg2Cf3T12hXJCqxWge3TmhwznArDmIht7VjCt4SsTXHITB8yZ9dexjkfgCiAVK6+Iv3XwJHYEvXwXQtBPGu7HUpZ9egt6zXFK8Zp2w3osn67qWAAEa+1fPBdAUhPVePGnqiUHdrX8JgMW7URaAJiC+n9jbMPXGoBDAPLheNgB9kRAo3jb8ARr63hMAHV9C9XfeVQRAXwSE08/+g+IxG/vXOIBfXxOAKz+/AlfoVApEUB3xM6lFx+NDaB7ZJQBm7zoBqO9+SwAwrz1MVAxAq+EEHYaI4/ERIEDLxB4BsN7fIgCY+PYrmUS0mk4wEQi6owDtM8cEoPW3BAEo6gO+jPBj5vCz1UAsKCIe84fgCQHgymibAFgGN3gX3sHlm5wLxp6YZABaTicKxXN5Bo5prozsk3wZoQu9KwTC4FkWe8E2sl0txILM4rnsmMsQgBu+A2h6wLvgjYu9UNfFfRN0t5fOXOHcswtxgikhHpMJ58AxzZWRfWpf7AXzADdSjXdjoPe8PjNPbtqoP+CKK5T7XVUnmG+IF3thPpPvhdEdDmLoA5j6VsA8uJa1+j5bxAeqCcGUIZ5kBMDpZwnA9Uf5Umoa3T22+iAvXk0IplzxfNKhrOhC68MEtIx/Yq95wVjyB5SEYCoUL6QrwI3VNj+76QyA4VyLlYBwR2FCinhxKs1nXlAB0J0rvhCiyulEh7Pj3MMCcJmJwGEVAM9QUNni5YIIZZOonQC4o3AgFYCJQpx+CnrVAcLZBAdAUVRnGMarKaGKIQKga59Pv5CnhPhwR8FXFUQEtn4sp4kDoHP62TVs/I65L1LFB776bPcTeF4NhPs8JyahvmXsI4sjVxi/ruCJPOKF6HwCfyrixDA0NI/tpMjH7sE2XPclufE7zconXjGIYWiwDKyd4sZqG/qPfLFx/XDwLnTMpeUTLzuE97NF71nO4YKHix6e1oTlzz61z0FMH4IrlJVPvBBMBBar7IkNXKlxtcYVW1i3cfUWSumG74BAtM+mlTnYVOtE08iOeMAxdC8TAFJKogt7fC8ckd1KljcvtxOmnhUCgMdNE19KeINnw14Y2c73QtGlsEzi5XDCOXssuoAHf+JC33vRBWGsOmdSyoiXwwk8rZGLr19eib1gHdoiAC0Tn3gXjoAO5iKUkiHVidZHSdGF+jtvi8roKj9S22ZTf1FqhBQnmEhOvPgSyqhxID9S22bYvyk1Q4oT+OYJQNcSB9DHAdin9tZVFS8VwjK4TgDwKp70QW/s4sRLgfjOGy8CsN7fTFBaiHIhcI0QSkgz4iuB0POXv8aeWIrSYjDfmE74xzfeWhu636QpLUdnCSfwz2/Niy/lBN6lmvpXM1QtBVMA0Ty2m6VqMZgILNqn9s+U/JH/Abpk8F+2oQqdAAAAAElFTkSuQmCC">
+                    <h6>Jira</h6>
+                    <p>2 años de experiencia</p>
+                </div>
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABqUlEQVR4nO2azStEURjGfz62owzZWfha+QP4D6TsxtaGsbKQPWuKhZCi2PgoVhZYsFBKSVhISlKKjA0bG0mObr13Ot0acy3GfW+9vzp1nvecOXOfnnPudGcGDMP4K/3AC+CUtgKQi2NEswnnmSlLOFkrLu71mZF/wlkiynCWiDKcJaIMZ4kow1kiynCWSIQGoBXIRHQdkJV+tFUBjdKv99YK5wdrBGREB3MrnsisjA+LnhY9AkyWeH6oBdakv+qttSm1RdF50XNJGxkCDoE3qZ2JrgF2pXbjrXUvtQ1tRkKOpNZdrMCp1L5lSzV577WXpJFR2e/zMY3cegn0AH3AJ/AInCRpxEVaOSOvwDrwAYwDE8AlcAVcJ2nkATj3vqz4zUg18AUsABfADrANLMs5ekrLGcmKngKW5MKDrTYIHAPvaTHSLjrYTgPeoe8A9r1bdF67kS7RY0CL9J9lbEt08CEYGrmTrRe0Zk1GeiOvOQBmpL8iY22eEb91VspI0jgzogxniSjDWSLKcJaIMpwlogxniaQ1kUKJR9nU/TydU26mEPcPA4ZhUOQHFk3RDloWB6UAAAAASUVORK5CYII=">
+                    <h6>Html</h6>
+                    <p>3 años de experiencia</p>
+                </div>
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABwklEQVR4nO2av0tcQRSFPyMoKUQ7MUhEIWmEVIJgIQo2gVitFoISmwQJiIiIglYh+KPQEEHEBAtBWwtLW0s7/wIrV0gRCJIUwYwMnJXhwZp94G5uyP1gYTlzh9mz592Zx74Fx3HyMgJcAcHoqwgUKjFi2URIzPyRUrFVQqWfz43UiOCJGCN4IsYInogxgidijOCJ/G+JdADvgT1gSlozMAfsaqxJeiuwCHwBloEGK0YGgOtk7gHQAlwk2o2MtANfE/07UGfByGPgUnPWgC7gKTArbR9oA3pVvy59Q3pPjrWqamRU9ecZfUP6fEY/lP46xxo1MVL6hrcy+pD0X8AS8Ej6uPSfwLsc61TdyGfVx6bNErXfGj9KzGwl68SNwISRVdVvlhl/BXxTTbwMS0wAP6T3WzDyVvVn99QsqGalTB/NWDDyRNd7nPMBeKYt9gXQrffHGp/ULvUc6AROpb+0YCQynfRC0EG3k/kJJybWqF5J9ZOkd0yc7H3qk3iyjwGDwEcZepOc3sPAJ2BbO1h9znWC3zQaI3gixgieiDGCJ2KM4IkYI3gixgieyL+aSPGBHiH/9cfTBeNmipX+YcBxHO64BY4ykS4TKrmeAAAAAElFTkSuQmCC">
+                    <h6>CSS</h6>
+                    <p>3 años de experiencia</p>
+                </div>
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACKElEQVR4nO2WT0hVQRTGz/GZ7yEiRJJ/SsMiRaigUFwUhQgGouLChZS5Cmmj5c4kol1tRNoYLcJ0JRKUFYmUJi5EQSP/dEFxkUW4iQyUIMS+mHe5jtN7ihLeO8L54OPBmXmX+c2c+90hEolEIisFh2CTSQAcOQFIC+1GQbcM5CV2gt91SIw6we885EPm2GHarYJeMATACX7XIS3k/M+O8YZ7282xmT5CbTkjI42RGGJkHWbUVTJmX+4DgMFOQiSsx2iTkyMcHbcWYH2WkHtU18NJjILj7q9XKz7D+PPJUoCPz3U9IYEx/cKtLw4STmQzbl5jrExYfALDXbqu2uj3lJ7/64NlKRQP4MuQWa8uZXx+t9PnWQCgfPmC+eJGwozrNYz5/n0C8G2YcLYgNoFCIRdkddJyAGW1yNYGRkpyLMjpPMaPMcsBPH8fJdxvJqQfMiEar3KwACrvtwP4N+d/jlM0/7352Rk+AqgUqSphvH6kawsDJsCrDj3W/YBQeCo279tb9H+SDvgE0NNG0c+/lya36hkddwnnz5ktoe4+ar66/3i1kmLG1yG3vjxOuFSkx9TX2heAuTcaYCufPKavBg9bzZNhZhxJN68SyrcbfGyh908JqSnxF69a4e0Ts/fv3Nge+GJh/CjdMwDlpRFCUx0jJ9PNc3VNriljTD6LP3+sh3ClgpGf6+7+wVR34Y/vEdZmtkq1PQTwwyQAjpwAfG0hkUgkIj/0FxH0JVVHu8XgAAAAAElFTkSuQmCC">
+                    <h6>JavaScript</h6>
+                    <p>1 años de experiencia</p>
+                </div>
+                <div class="habilidad">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADxElEQVR4nO2aS0hVQRjHf0pPtQe9KHpQQfawMrOipxC0aREFUe2CXtImWlXLLI1elN0sokUFLSLaJLTLgsqCICoqxSQIIq2IsoeaYeqNgf+B8XDzztHr9d6bHwwc5sx8M9/5/t9jvjnQT/8PLQXKgW9q5epLGpoEXAU6gHCEdguYTgLTcOAY0KINNwPFwDS1YvWFNeaY5iQMpQNbgU/apNHEDWBqhLETgYtAm8Z+AfYCA+hjWgO8sGDzGFjuMC8fuGfNqwE20Qc0S1j3NvJOWkkLyGcd8MbiUwHMJw40GggBf7RwA3AAGNwDngOBQuCzeLbLWYynF2iQsPxdi7UK6+NiuMYoOYDfWqMJKAKGxoJ5mrD71qf+ufQezZCz8NZ7L40Zp9ItWgI8tBhWA2uJH60GnlnrPwFWBWVy0gpo9cC2AF9kpuzmjrxRk+DyEbgLHAIWOPJK19r1lms/4SpEoWUHZtFMx3n52nzYsVUCKx15Z8peWjV3l8ukKg02X8KFTDArszT4FbgErJd2zCaGAbOBjcA1oNH6whcCGPR2zXvpMtiTOsNh7EjBxYz/BZQ4ph1jJIAX4R+JVzTKsNASlTzVu2jCg5LB8GK6Z9CeSzeOZUgM9+c8sMxyjyaHsikHKBVMm9SeS2MTfGN3W2teircg+cK3gdNCX+AssyATqTUruE6WvXRYac6WeAviQarEJ0SFlaafUSwyxp4FLAPOWTbYZglW5GiTMRVkpuWdhv8Dal0lfnnAB2niOjDFZVO9IciBCHjO0RduccxezccocNlMbwriwcfECY9K1Wfg1B3qas2w713MBKnV+2yrr1p9xiaSRpBGvc+K0hdkLX/DIcWJStEG/oyw6Uh9CS9IbQRoVSUjtCr0foPVd1p95hicNILs1/vLVt8cuV9z7shNFvebbQXEEVZ/yAqIuVHSm4QIiDa8jtC5GnJb/UYzZ1XrzdJ5xNS7zidSioISxXZF8kV0FiYUJWk0mfCeREkabSjVqXCNz2ZOAa8UY4x7fgocjlCv6tM03n+wqvNpJkjJ9Yd4PHAs9DkLEvSoa6fuR30O4F801lfMrnSclxHkqOsFN3PQx1EzIdmMV0a9ojgzyzJ2A7fN8lRNGtuhM4rLEdfQjiDFh+6Wg/Isr+XS7gMrHHlnai9ezXlnPAp0puS5T0LVyNhbxMfA8CAwrwcFuuOkQMm0IJmK2NmxLmKn1LVCyl30xOvq7Y5j9pywl6Gv++oytKfX0+2Jdj2dUj8MpNwvHH4yh6qb+qGmQc9J9VNNP9ED+gswRgHMbloOMQAAAABJRU5ErkJggg==">
+                    <h6>C#</h6>
+                    <p>1 años de experiencia</p>
+                </div>
+                
+                <!-- Colocar más habilidades aquí-->
+            </div>
+        </section>
+        <!-- Poyectos -->
+        <section class="proyectos" id="proyectos">
+            <h2>Proyectos</h2>
+            <div style="clear: both;"></div>
+            <div id="contenedor_proyectos" class="contenedor_proyectos">
+                <div class="carta_proyecto">
+                    <h3>Sitio Web Marketplace de Artesanía</h3>
+                    <ul>
+                        <li>Desarrollé un sitio web para la compra y venta de artesanías con MVC ASP.Net.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="carta_proyecto">
+                    <h3>Portafolio</h3>
+                    <ul>
+                        <li>Desarrollé un portafolio de Proyectos para mostar mi experiencia, utilizando HTML, CSS y Javascript.</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="carta_proyecto">
+                    <h3>Red social de Parbol Genealógico</h3>
+                    <ul>
+                        <li>Creé una red social privada para relacionar y guardar los distintos arboles genealógicos.</li>
+                     </ul>
+                </div>
+            </div>
+        </section>
+        <div style="clear: both;"></div>
+
+        <!-- Recomendaciones -->
+        <section id="all_recommendations">
+            <h2>Recomendaciones</h2>
+            <div style="clear: both;"></div>
+            <div class="recommendation">
+                <span>&#8220;</span>
+                Recomiendo a Andrea Banda por ser una persona didacta, autogestión y buena administradora de recursos informaticos.
+                <span>&#8221;</span>
+              </div>
+              <br>
+              <div class="recommendation">
+                <span>&#8220;</span>
+                Trabaje con Andrea y fui testigo de su gran capacidad artística, manejo de equipo, Liderazgo, creatividad y resolución de problemas. Es una gran profecional.
+                <span>&#8221;</span>
+              </div>
+              <br>
+              <div class="recommendation">
+                <span>&#8220;</span>
+                Trabajé con Andrea y puedo destacar su fortaleza, paciencia y su capacidad resolutiva.
+                <span>&#8221;</span>
+              </div>
+            </div>
+          </section>
+      
+          <!-- Recommendation Form -->
+          <section id="contact">
+            <div class="flex_center">
+              <fieldset>
+                <legend class="introduction">Deja una recomendacipión</legend>          
+                <input type="text" placeholder="Name (Optional)"> <br/>
+                <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+                <div class="flex_center">
+                  <button id="recommend_btn" onclick="addRecommendation()">Enviar</button>
+                </div>
+              </fieldset>
+            </div>
+          </section>
+      
+          <div class="iconbutton">
+            <a href="#home">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+            </a>
+          </div>
+      
+          <div class="popup" id="popup" class="flex_center">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAERUlEQVR4nO2aXYhVVRTHf6ONM4aaNuo4CRn4kmkiJqLgixSW4RdG0KQ9WKQpaToYgoKj+KLpQ5LYk2D05IM+mJZipBhSlIipqY2DD+YH2hcY6ExWIwv/J5Zzz/Wer3vOEP7hMGfO3nvttfdee63/2vvCQ/x/MQiYA2wG9gPngd+BTuAvvbcBnwNbVLeBHoI6YB5wEPgb6Ir53AEOAPOBPkUMoC/QAlxxSnUAh4G1mu1RWqVaPfb+jMrWA0e0UkF7k9WS54CmA+1OgRPAQmBgAllmWu8AZ5y8duAlqoh6YLvr8KQGVZOBbJMxCzgn2f8CH6vPTNEIHFcnt4EVwCNZd8I9E1wtB2F9fQMMc+VJVv0/PAVckGD7O47q4zngkp4mfXsbuAZMTLoSwSC+A4aQH5qA0Xp/3jmGBXEF1TtzskH0pxg8rRhkemxMIiDY2BdyXgmPwc5D7gZ6ERPT3cbOY0+UC7ZHpYdZxqP6PjxOsAtmwQJUEagBPpEOPwNP6PtbwI9RPWaLixPVcLFRsEY6/NnNIk7ru3mwissZ0A4zryLwqgLiPwqSHs2OzljMKYt5jnZkEbHjYiJw6wFm3cvRme6DvA8HVcm4U96wTXxZ/e+IYPp7ylUYJCrekZYKJIDFqB+k4KEKZtMkPS1APhZWYY4EfUW+6A3sU9/nIk5i4JanhRVuUaHlE3niQ/X7CzAyYpsP1KY1rDCYldnkh8UuKZsS07N1KaUuQZsKLbPLAy8q1TVX+0bMtmNdrCvBbyp8PIZt7wLeJD5ssv5QfxsSerguRf0SBMlM1Jz5FZfNLY2hxFDgotruShiv+qq9xZzUAzG8qwgclWJbanAshAjGRZ3bW6lNK8B82bq13fYAqm0z/6nqXY7DYkMwRHJuhBX+lGKzz9XsWPudZchmq8pvAs+SDqNd3CnB/pTud6qUNBl7u52ABETQIvJM0mOu66cEmzMIiJNcWvol0A+YrATNvi0jG6yXvE1hhbNVaKeFaWBmc9Xl+tfd/skKRyVzRljhQEcajUCmwUjnYu35IsMkrUGE0Z4B5SodUMeLMuhwmBjt2YzZ9BLpaJSqLF7POLGy2XuS7FAjWmI6vlYp0ATJzcv0PMxy1KRi4F6uyqcKPHwIQ61LcyNRonp3TLqSnoNV0um8LCcyxQ64zHiKxwTpYkH1hbiNt7mLF2OsRaHRufKtSQTUKaCZgO8LOsQe4A7Sv01zLTdYNhnQ7jxXptENol3/k/aip80JHJ/TnrioPo2Vj8hK8FBnZrbp3q90ZJkQtfJOHc6cMr/SsD3zkeNPp0TasrwMPePS563Vvqqe5kwtOMlYnCCzDCjMEkc7urQnY7vYNKvznqhCoECn6HWrEp8xUrSPngZ9s7J1wNfdfjBgF59L4wS7rAfUrOzyTsKfcOwTASzkJxzlfP5MHWd+pnz6V61Up97PKj3dpP1V1AXrQ1Bt3AVSX1y/4Zx+TQAAAABJRU5ErkJggg==">
+            <h3>Gracias por su recomendación</h3>
+            <button onclick="showPopup(false)">Ok</button>
+          </div>
+    </body>
+</html>
